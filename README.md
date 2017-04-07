@@ -1,11 +1,13 @@
-# api documentation for  [gulp-clean-css (v3.0.4)](https://github.com/scniro/gulp-clean-css#readme)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-clean-css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-clean-css)
+# api documentation for  [gulp-clean-css (v3.0.4)](https://github.com/scniro/gulp-clean-css#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-clean-css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-clean-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-clean-css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-clean-css)
 #### Minify css with clean-css.
 
 [![NPM](https://nodei.co/npm/gulp-clean-css.png?downloads=true)](https://www.npmjs.com/package/gulp-clean-css)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-clean-css/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp_clean_css_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-clean-css/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-clean-css/build/screenCapture.buildNpmdoc.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-gulp-clean-css%2Ftmp%2Fbuild%2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-clean-css/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-gulp-clean-css/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-clean-css/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-gulp-clean-css/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 

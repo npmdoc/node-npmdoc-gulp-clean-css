@@ -1,9 +1,11 @@
 # api documentation for  [gulp-clean-css (v3.0.4)](https://github.com/scniro/gulp-clean-css#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-clean-css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-clean-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-clean-css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-clean-css)
 #### Minify css with clean-css.
 
-[![NPM](https://nodei.co/npm/gulp-clean-css.png?downloads=true)](https://www.npmjs.com/package/gulp-clean-css)
+[![NPM](https://nodei.co/npm/gulp-clean-css.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-clean-css)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-clean-css/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-clean-css%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-clean-css/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-clean-css/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-clean-css/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-clean-css/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-clean-css/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-clean-css/build/screenCapture.npmPackageListing.svg)
 
@@ -20,8 +22,7 @@
         "name": "scniro"
     },
     "bugs": {
-        "url": "https://github.com/scniro/gulp-clean-css/issues",
-        "email": "scniro@outlook.com"
+        "url": "https://github.com/scniro/gulp-clean-css/issues"
     },
     "dependencies": {
         "clean-css": "^4.0.9",
@@ -73,13 +74,11 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "scniro",
-            "email": "salvatore.niro@outlook.com"
+            "name": "scniro"
         }
     ],
     "name": "gulp-clean-css",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/scniro/gulp-clean-css.git"
@@ -90,16 +89,6 @@
     "version": "3.0.4"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-clean-css](#apidoc.module.gulp-clean-css)
-
-
-
-# <a name="apidoc.module.gulp-clean-css"></a>[module gulp-clean-css](#apidoc.module.gulp-clean-css)
 
 
 

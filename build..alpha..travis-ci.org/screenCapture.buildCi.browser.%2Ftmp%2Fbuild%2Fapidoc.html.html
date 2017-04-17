@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/scniro/gulp-clean-css#readme"
-
-    >gulp-clean-css (v3.0.4)</a>
+    <a href="https://github.com/scniro/gulp-clean-css#readme">gulp-clean-css (v3.0.4)</a>
 </h1>
 <h4>Minify css with clean-css.</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-clean-css">module gulp-clean-css</a><ol>
 
@@ -111,7 +104,7 @@
 
   options = options || {};
 
-  if (arguments.length === 1 &#x26;&#x26; Object.prototype.toString.call(arguments[0]) === &#x27;[object Function]&#x27;)
+  if (arguments.length === 1 &amp;&amp; Object.prototype.toString.call(arguments[0]) === '[object Function]')
     callback = arguments[0];
 
   var transform = function (file, enc, cb) {
@@ -120,31 +113,31 @@
       return cb(null, file);
 
     if (file.isStream()) {
-      this.emit(&#x27;error&#x27;, new PluginError(&#x27;gulp-clean-css&#x27;, &#x27;Streaming not supported!&#x27;));
+      this.emit('error', new PluginError('gulp-clean-css', 'Streaming not supported!'));
       return cb(null, file);
     }
 
     if (file.sourceMap)
       options.sourceMap = JSON.parse(JSON.stringify(file.sourceMap));
 
-    var style = file.contents ? file.contents.toString() : &#x27;&#x27;;
+    var style = file.contents ? file.contents.toString() : '';
 
     new CleanCSS(options).minify(style, function (errors, css) {
 
       if (errors)
-        return cb(errors.join(&#x27; &#x27;));
+        return cb(errors.join(' '));
 
-      if (typeof callback === &#x27;function&#x27;) {
+      if (typeof callback === 'function') {
         var details = {
-          &#x27;stats&#x27;: css.stats,
-          &#x27;errors&#x27;: css.errors,
-          &#x27;warnings&#x27;: css.warnings,
-          &#x27;path&#x27;: file.path,
-          &#x27;name&#x27;: file.path.split(file.base)[1]
+          'stats': css.stats,
+          'errors': css.errors,
+          'warnings': css.warnings,
+          'path': file.path,
+          'name': file.path.split(file.base)[1]
         }
 
         if (css.sourceMap)
-          details[&#x27;sourceMap&#x27;] = css.sourceMap;
+          details['sourceMap'] = css.sourceMap;
 
         callback(details);
       }
@@ -184,21 +177,21 @@
     return text;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-this.emit(&#x27;error&#x27;, new PluginError(&#x27;gulp-clean-css&#x27;, &#x27;Streaming not supported!&#x27;));
+this.emit('error', new PluginError('gulp-clean-css', 'Streaming not supported!'));
 return cb(null, file);
     }
 
     if (file.sourceMap)
 options.sourceMap = JSON.parse(JSON.stringify(file.sourceMap));
 
-    var style = file.contents ? file.contents.<span class="apidocCodeKeywordSpan">toString</span>() : &#x27;&#x27;;
+    var style = file.contents ? file.contents.<span class="apidocCodeKeywordSpan">toString</span>() : '';
 
     new CleanCSS(options).minify(style, function (errors, css) {
 
 if (errors)
-  return cb(errors.join(&#x27; &#x27;));
+  return cb(errors.join(' '));
 
-if (typeof callback === &#x27;function&#x27;) {
+if (typeof callback === 'function') {
 ...</pre></li>
     </ul>
 
@@ -218,21 +211,21 @@ if (typeof callback === &#x27;function&#x27;) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-this.emit(&#x27;error&#x27;, new PluginError(&#x27;gulp-clean-css&#x27;, &#x27;Streaming not supported!&#x27;));
+this.emit('error', new PluginError('gulp-clean-css', 'Streaming not supported!'));
 return cb(null, file);
     }
 
     if (file.sourceMap)
 options.sourceMap = JSON.parse(JSON.stringify(file.sourceMap));
 
-    var style = file.contents ? file.contents.<span class="apidocCodeKeywordSpan">toString</span>() : &#x27;&#x27;;
+    var style = file.contents ? file.contents.<span class="apidocCodeKeywordSpan">toString</span>() : '';
 
     new CleanCSS(options).minify(style, function (errors, css) {
 
 if (errors)
-  return cb(errors.join(&#x27; &#x27;));
+  return cb(errors.join(' '));
 
-if (typeof callback === &#x27;function&#x27;) {
+if (typeof callback === 'function') {
 ...</pre></li>
     </ul>
 
@@ -245,3 +238,4 @@ if (typeof callback === &#x27;function&#x27;) {
     ]
 </div>
 </div>
+</body></html>

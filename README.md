@@ -1,4 +1,7 @@
-# api documentation for  [gulp-clean-css (v3.0.4)](https://github.com/scniro/gulp-clean-css#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-clean-css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-clean-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-clean-css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-clean-css)
+# npmdoc-gulp-clean-css
+
+#### api documentation for  [gulp-clean-css (v3.0.4)](https://github.com/scniro/gulp-clean-css#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-clean-css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-clean-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-clean-css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-clean-css)
+
 #### Minify css with clean-css.
 
 [![NPM](https://nodei.co/npm/gulp-clean-css.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-clean-css)
@@ -86,7 +89,8 @@
     "scripts": {
         "test": "gulp test"
     },
-    "version": "3.0.4"
+    "version": "3.0.4",
+    "bin": {}
 }
 ```
 
